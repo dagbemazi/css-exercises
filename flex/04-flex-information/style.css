@@ -5,11 +5,29 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.text {
+  text-align: center;
+}
+
+.image-card {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  margin: 0 52px;
 }
 
 /* do not edit this footer */
